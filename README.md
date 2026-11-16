@@ -1,3 +1,13 @@
+# PVE Cloud Panel
+
+An independent fork of [PVE Panel](https://github.com/sebastianflint/pve-panel) by Sebastian Flint, based on v1.16.0 and retaining its MIT license.
+
+This fork adds configurable LXC VLAN tags, customer root-password recovery, password generation in the recovery form, and native xterm.js consoles for containers. Virtual machines keep noVNC.
+
+**Start with [the fork guide](FORK.md)** for the additions, building this version and maintaining it. The original project documentation is retained below; its upstream image references do not include this fork's additions.
+
+---
+
 <div align="center">
 
 # PVE Panel

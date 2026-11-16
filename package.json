@@ -1,7 +1,7 @@
 {
-  "name": "pve-panel",
+  "name": "pve-cloud-panel",
   "version": "1.16.0",
-  "description": "Customer self-service control panel for Proxmox VE",
+  "description": "Self-service VM and LXC management for Proxmox VE, based on PVE Panel",
   "private": true,
   "license": "MIT",
   "author": "Sebastian Flint",
@@ -9,11 +9,11 @@
   "main": "src/server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebastianflint/pve-panel.git"
+    "url": "git+https://github.com/twproject/pve-cloud-panel.git"
   },
-  "homepage": "https://github.com/sebastianflint/pve-panel#readme",
+  "homepage": "https://github.com/twproject/pve-cloud-panel#readme",
   "bugs": {
-    "url": "https://github.com/sebastianflint/pve-panel/issues"
+    "url": "https://github.com/twproject/pve-cloud-panel/issues"
   },
   "scripts": {
     "start": "node --disable-warning=ExperimentalWarning src/server.js",
@@ -56,5 +56,11 @@
     "@playwright/test": "^1.63.0",
     "mailparser": "^3.9.33",
     "smtp-server": "^3.19.16"
-  }
+  },
+  "contributors": [
+    {
+      "name": "TWProject",
+      "url": "https://github.com/twproject"
+    }
+  ]
 }
