@@ -9,11 +9,11 @@
   "main": "src/server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twproject/pve-cloud-panel.git"
+    "url": "git+https://github.com/twproject/pve-panel.git"
   },
-  "homepage": "https://github.com/twproject/pve-cloud-panel#readme",
+  "homepage": "https://github.com/twproject/pve-panel#readme",
   "bugs": {
-    "url": "https://github.com/twproject/pve-cloud-panel/issues"
+    "url": "https://github.com/twproject/pve-panel/issues"
   },
   "scripts": {
     "start": "node --disable-warning=ExperimentalWarning src/server.js",
